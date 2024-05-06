@@ -1,0 +1,51 @@
+.lugares-populares {
+    margin: 80px auto; 
+    background-color: #F0F0F0; 
+    padding: 20px; 
+    border-radius: 5px; 
+    display: flex; 
+    flex-direction: column; 
+    width: 1000px;  
+  }
+  
+  .lugar2 {
+    
+    display: flex; 
+    margin-bottom: 50px; 
+    border: 1px solid #161616; 
+    border-radius: 5px; 
+  }
+  
+  .image-container2 {
+    width: 50%; 
+    margin-right: 10px; 
+   
+  }
+  
+  .image-container2 img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transition: transform 0.5s ease-in-out;  
+  }
+  
+  .image-card:hover .image-container2 img {
+    transform: scale(1.1); 
+  }
+  
+  .info-container2 {
+    flex: 1;  
+    padding: 10px; 
+  }
+  
+  .info-container2 h2 {
+    margin-bottom: 30px; 
+    font-weight: 900; 
+    
+  }
+  
+  .info-container2 p {
+    font-size: 26px; 
+    line-height: 1;
+  }
+  
